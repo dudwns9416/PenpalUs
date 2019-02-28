@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutFriendList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgFriend"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/txtRoomName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.99"
+                android:gravity="center_vertical"
+                android:text="채팅방 이름" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.01"
+                android:background="@color/colorAccent"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

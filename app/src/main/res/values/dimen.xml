@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chat_date_size">13sp</dimen>
+    <dimen name="chat_text_size">15sp</dimen>
+    <dimen name="btn_text_size">20sp</dimen>
+</resources>

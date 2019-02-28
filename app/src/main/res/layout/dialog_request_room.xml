@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make Chat Room"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/inputRoomName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Please Chatting Room Name"
+            android:layout_marginBottom="20dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnRoomCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="complete"/>
+    </LinearLayout>
+
+</LinearLayout>

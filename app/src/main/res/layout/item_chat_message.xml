@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutChatLine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:id="@+id/layoutFromLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtFromDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="time"
+            android:layout_marginRight="5dp"
+            android:textSize="@dimen/chat_date_size" />
+
+        <TextView
+            android:id="@+id/txtFromMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_from_chat_message"
+            android:maxWidth="250dp"
+            android:paddingBottom="2.5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2.5dp"
+            android:text="message"
+            android:textSize="@dimen/chat_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutToLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txtToMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_to_chat_message"
+            android:maxWidth="250dp"
+            android:paddingBottom="2.5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="2.5dp"
+            android:layout_marginLeft="5dp"
+            android:text="message"
+            android:textSize="@dimen/chat_text_size" />
+
+
+        <TextView
+            android:id="@+id/txtToDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="time"
+            android:textSize="@dimen/chat_date_size" />
+
+    </LinearLayout>
+
+</LinearLayout>
